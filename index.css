@@ -52,17 +52,18 @@ body {
 }
 
 .resume-btn{
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px solid orange;
-    border-radius: 10%;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: rgb(106, 89, 230);
+    color:#ffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: aliceblue;
+    outline-color:rgb(13, 155, 160) ;
+    outline-style: solid;
 }
-
-.nav-list > li{
-    margin: 20px;
-    font-size: 20px;
-}
+.resume-btn:hover{
+    background-color: brown;
 .img-main{
     border: 5px solid rgba(251, 249, 249,.4);
 }
