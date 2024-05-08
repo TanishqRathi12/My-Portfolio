@@ -235,6 +235,10 @@ body {
     border-radius: 10px;
     margin-bottom: 50px;
 }
+.pro-img{
+    border-radius: 2px;
+}
+    
 .project-alignment{
  padding: 5px;
 }
