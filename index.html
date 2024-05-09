@@ -10,9 +10,12 @@
  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Tanishq Porfolio</title>
     <link href="index.css" rel="stylesheet"></link>
-    <link href="Logos/portfolio.png" rel="icon" type="image/x-icon" /></link>
+    <link href="Logos/portfolio.png" rel="icon" type="image/x-icon"></link>
 </head>
 <body>
+    <script>
+        alert('Welcome to the portfolio created by Tanishq Rathi');
+    </script>
     <div class="main-page">
         <div class="navbar" id="navbarid">
             <div class="profile">
@@ -25,7 +28,7 @@
                     <a  class="resume-btn" href="#Pro">Projects</a>
                     <a  class="resume-btn" href="#Education">Education</a>
                     <a  class="resume-btn" href="#Contact">Contact</a>
-                    <a  class="resume-btn" href="#Resume" >Resume</a>
+                    <a  class="resume-btn" href="Resume.html" >Resume</a>
                 </ul>
             </div>
         </div>
@@ -41,11 +44,21 @@
                 <img class="img-main" title="Tanishq Image" src="images/MyImage.jpg" alt="Tanishq Rathi" ></head>
             </div>
         </div>
+        <h2 class ="date-time" id="demon"></h2>  
+        <script>
+              const now = new Date();
+              const datetime = now.toLocaleString();
+              document.getElementById("demon").innerHTML = datetime;
+        </script>
     </div>
 
     <div id="skills" class="skills">
         <section id="Skills"></section>
-        <h1 class="skills-heading">Skills and Interest</h1>
+         <div class="skill-gif">
+            <div class="skills-heading">
+                <h1>Skills and Interest</h1>
+            </div>
+         </div>
         <p class="skills-info">Here are some of my skills on which I have been working on for the past 1 years.</p>
         <div class="skills-card-container">
             <div>
@@ -80,18 +93,19 @@
         <section id="Pro"></section>
         <h1 class="pro-heading">My Projects..</h1>
         <div class="pro-card-container">
-           <div>
+            <div>
                 <p>My personal portfolio website.<br>Click on the image to view the<br> project </p>
               
                
-                <a class="project-alignment" href="https://github.com/TanishqRathi12/My-Portfolio" target="_blank"><img class="pro-img" src="images/Project1.png" width="60" height="45"> </a> 
+                <a class="project-alignment" href="https://github.com/TanishqRathi12/My-Portfolio" target="_blank"><img class ="pro-img" src="images/Project1.png" width="60" height="45"> </a> 
                 
             </div>
             <div>
                 <p>More will be added soon...</p>
-            </div>                        
+            </div>                  
         </div>
     </div>
+
 
     <div id="skills" class="education">
         <section id="Education"></section>
@@ -115,7 +129,7 @@
     <div id="skills" class="Social">
         <h1 class="Social-heading">Find me on-----</h1>
         <div class="Social-card-container">
-             <div>
+            <div>
                 <a class="link" href="https://www.linkedin.com/in/tanishq-rathi-580714295/?originalSubdomain=in" target="_blank"> My Linkedin</a>
                 <img src="Logos/linkedin.png" width="60" height="60">
             </div>
