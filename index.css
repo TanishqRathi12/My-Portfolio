@@ -11,10 +11,7 @@ body {
     font-family: Poppins;
 }
 
-/* 
-. represents class 
-# represents id
-*/
+
 .main-page{
     padding: 20px;
    background-image: url(images/Background.jpg) ;
@@ -96,8 +93,13 @@ body {
 .main-right img{
     width: 50%;
     border-radius: 50%;
-}
 
+}
+.date-time{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
 .skills, .series, .projects,.education,.Social,.pro{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -105,6 +107,7 @@ body {
     background-image: linear-gradient(to right, rgb(248, 233, 205), rgb(203, 203, 247));
     /* background-image: linear-gradient(to right, #ebe288, #aae9ab, #80e5d7, #89daf1, #b0cbee); */
 }
+
 
 .contact{
     padding-top: 50px;
@@ -144,7 +147,6 @@ body {
 .skills-info, .series-info{
     font-size: 22px;
 }
-
 
 .skills-card-container{
     margin-top: 40px;
@@ -253,9 +255,9 @@ body {
 .pro-img{
     border-radius: 2px;
 }
-    
 .project-alignment{
  padding: 5px;
+ 
 }
 .link{
     text-decoration: none;
@@ -264,3 +266,10 @@ body {
 .link:hover{
     color:red;
 }
+.Resume{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(221, 9, 9);
+    text-align: center;
+}
+
+
