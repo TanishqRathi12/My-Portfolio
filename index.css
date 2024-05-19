@@ -270,5 +270,10 @@ body {
     color: rgb(221, 9, 9);
     text-align: center;
 }
+.pdf{
+    height: 100%;
+    width: 100%;
+}
+
 
 
