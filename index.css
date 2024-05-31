@@ -11,9 +11,15 @@ body {
     font-family: Poppins;
 }
 
-
+.marq{
+    padding:5px;
+    margin:5px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .main-page{
-    padding: 20px;
+   padding: 10px;
+   margin:none;
    background-image: url(images/Background.jpg) ;
 
     /*background-image: linear-gradient(to right, rgb(137, 9, 73), rgb(117, 209, 19));*/
@@ -30,8 +36,8 @@ body {
 
 .profile{
     display: flex;
-    align-items: center;                /* Veritically align */
-    /* margin: 20px; */
+    align-items: center; 
+    margin-left: 10px;               /* Veritically align */
     font-size: 25px;
 }
 .profile p{
@@ -75,6 +81,7 @@ body {
 .main-left{
     width: 50%;
     padding: 100px;
+    margin-right: 60px;
 }
 .main-left h1, h2{
     color: rgb(0, 0, 0)
@@ -88,8 +95,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.Audio{
+  margin-left: 1045px;
+}
 .main-right img{
+    
     width: 50%;
     border-radius: 50%;
 
@@ -106,7 +116,9 @@ body {
     background-image: linear-gradient(to right, rgb(248, 233, 205), rgb(203, 203, 247));
     /* background-image: linear-gradient(to right, #ebe288, #aae9ab, #80e5d7, #89daf1, #b0cbee); */
 }
-
+.current-skill-marquee{
+    color: rgb(224, 4, 4);
+}
 
 .contact{
     padding-top: 50px;
@@ -274,6 +286,5 @@ body {
     height: 100%;
     width: 100%;
 }
-
 
 
