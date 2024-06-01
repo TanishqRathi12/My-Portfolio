@@ -16,17 +16,27 @@ body {
     margin:5px;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blanchedalmond;
 }
 .main-page{
    padding: 10px;
    margin:none;
-   background-image: url(images/Background.jpg) ;
-
+   
     /*background-image: linear-gradient(to right, rgb(137, 9, 73), rgb(117, 209, 19));*/
    /* background-color: rgb(15, 165, 120);*/
     /* color: brown; */
 }
-
+#bg-video{
+    width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
 
 .navbar{
     display: flex;
@@ -39,6 +49,7 @@ body {
     align-items: center; 
     margin-left: 10px;               /* Veritically align */
     font-size: 25px;
+    color: whitesmoke;
 }
 .profile p{
     font-weight: bold;
@@ -82,12 +93,14 @@ body {
     width: 50%;
     padding: 100px;
     margin-right: 60px;
+   
 }
 .main-left h1, h2{
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
+
 }
 .main-left p{
-    color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
 }
 .main-right{
     width: 50%;
@@ -105,7 +118,7 @@ body {
 
 }
 .date-time{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
@@ -286,5 +299,7 @@ body {
     height: 100%;
     width: 100%;
 }
-
+.gif{
+    border-radius: 10px;
+}
 
